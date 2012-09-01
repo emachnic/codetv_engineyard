@@ -1,0 +1,12 @@
+- content_for :title do
+  Home
+= form_tag '/set_key' do
+  = text_field_tag 'redis_key', '',
+    placeholder: 'Enter key...'
+  = text_field_tag 'redis_value', '',
+    placeholder: 'Enter value...'
+  = submit_tag 'Set it yo!'
+= form_tag '/get_key' do
+  = text_field_tag 'redis_key', '',
+    placeholder: 'Enter key to look up...'
+  = submit_tag 'Git after it!'
