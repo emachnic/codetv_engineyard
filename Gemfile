@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.12'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -10,6 +10,7 @@ gem 'redis'
 gem 'haml-rails'
 gem 'unicorn'
 gem 'turbo-sprockets-rails3'
+gem 'clockwork'
 
 # Gems used only for assets and not required
 # in production environments by default.
