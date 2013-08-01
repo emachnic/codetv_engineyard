@@ -12,6 +12,8 @@ gem 'unicorn'
 gem 'turbo-sprockets-rails3'
 gem 'clockwork'
 gem 'puma'
+gem 'newrelic_rpm'
+gem 'ey_config'
 
 # Gems used only for assets and not required
 # in production environments by default.
